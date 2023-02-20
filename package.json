@@ -10,7 +10,7 @@
     "dev": "concurrently \"npm run server\" \"npm run frontend\"",
     "buildfrontend": "npm run build --prefix frontend",
     "buildbackend": "npm run build --prefix backend",
-    "build": "npm run buildbackend && npm run buildfrontend"
+    "build": "npm run buildfrontend"
   },
   "repository": {
     "type": "git",
