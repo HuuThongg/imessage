@@ -1,0 +1,29 @@
+{
+  "name": "imessage-graphql-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.ts",
+    "server": " npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadeemerhi/imessage-graphql-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadeemerhi/imessage-graphql-tutorial/issues"
+  },
+  "homepage": "https://github.com/shadeemerhi/imessage-graphql-tutorial#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
